@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de productos</h1>
+    <ul>
+        <% for (const producto of productos) { %>
+<li><%= producto.nombre %> - <%producto.precio %></li>
+      <%  } %>
+    </ul>
+</body>
+</html>

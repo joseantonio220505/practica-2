@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>agregar Nuevo Producto</h1>
+    <form action="/agregar-producto" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="nombre" id="nombre" name="nombre" required>
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" step="0.01" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+</body>
+</html>
